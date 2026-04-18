@@ -1,7 +1,15 @@
+import Hero from "./components/Hero";
+import HeroSectionTwo from "./components/HeroSectionTwo";
+import Navbar from "./components/Navbar";
+import SocialStrategySection from "./components/SocialStrategySection";
+
 function App() {
   return (
     <>
-      <h2 class="text-3xl font-bold underline">Get Hyped Frontend</h2>
+      <Navbar />
+      <Hero />
+      <HeroSectionTwo />
+      <SocialStrategySection />
     </>
   );
 }
