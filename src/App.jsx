@@ -1,5 +1,8 @@
+import ContentShowcase from "./components/ContentShowcase";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import HeroSectionTwo from "./components/HeroSectionTwo";
+import LogoMarquee from "./components/LogoMarquee";
 import Navbar from "./components/Navbar";
 // import ServicesStack from "./components/ServicesScroll";
 import ServiceSection from "./components/SocialStrategySection";
@@ -64,6 +67,9 @@ function App() {
         mediaSrc="/data-image.jpg"
       />
       {/* <ServicesStack /> */}
+      <ContentShowcase />
+      <LogoMarquee />
+      <Footer />
     </>
   );
 }
